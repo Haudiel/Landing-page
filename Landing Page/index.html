@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de Cafécitos</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Café<span class="logo__bold">cito</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="index.html" class="navegacion__enlace">Cafecitos</a>
+                    <a href="index.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Landing page de cafecitos ricos y deliciosos</h2>
+            <p class="no-margin">Los cafecitos más ricos de la era moderna</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Top de Cafecitos más deliciosos</h3>
+
+        <div class="curso">
+            <div class="curso__imagen">
+                <img src="img/curso1.jpg" alt="Imagen del curso">
+            </div>
+            <div class="curso__informacion">
+                <h4 class="no-margin">Mochachino</h4>
+                <p class="curso__label">Precio: 
+                    <span class="curso__info">Cuesta mucho u.u</span>
+                </p>
+                </p>
+                <p class="curso__descripcion">
+                    Donec tempor, nisl et rhoncus viverra, turpis enim convallis ligula, non hendrerit nulla tortor nec odio. Morbi non mattis nunc, elementum auctor arcu. Aliquam vestibulum arcu non sem porta auctor. Nam vel congue ligula, eu condimentum felis. Nunc aliquam hendrerit odio sit amet venenatis. Nunc varius, libero a tempor rutrum, nulla risus congue velit, nec suscipit nibh lectus ac dolor. Nulla facilisi.
+                </p>
+            </div> <!--.cafe-informacion-->
+        </div> <!--.cafe -->
+
+        <div class="curso">
+            <div class="curso__imagen">
+                <img src="img/curso2.jpg" alt="Imagen del curso">
+            </div>
+            <div class="curso__informacion">
+                <h4 class="no-margin">Café Latte</h4>
+                <p class="curso__label">Precio: 
+                    <span class="curso__info">Tambien un montón</span>
+                </p>
+                <p class="curso__descripcion">
+                    Donec tempor, nisl et rhoncus viverra, turpis enim convallis ligula, non hendrerit nulla tortor nec odio. Morbi non mattis nunc, elementum auctor arcu. Aliquam vestibulum arcu non sem porta auctor. Nam vel congue ligula, eu condimentum felis. Nunc aliquam hendrerit odio sit amet venenatis. Nunc varius, libero a tempor rutrum, nulla risus congue velit, nec suscipit nibh lectus ac dolor. Nulla facilisi.
+                </p>
+            </div> <!--.cafe-informacion-->
+        </div> <!--.cafe -->
+
+        <div class="curso">
+            <div class="curso__imagen">
+                <img src="img/curso3.jpg" alt="Imagen del curso">
+            </div>
+            <div class="curso__informacion">
+                <h4 class="no-margin">Café Americano</h4>
+                <p class="curso__label">Precio: 
+                    <span class="curso__info">Este si es Bara bara uwu</span>
+                </p>
+                <p class="curso__descripcion">
+                    Donec tempor, nisl et rhoncus viverra, turpis enim convallis ligula, non hendrerit nulla tortor nec odio. Morbi non mattis nunc, elementum auctor arcu. Aliquam vestibulum arcu non sem porta auctor. Nam vel congue ligula, eu condimentum felis. Nunc aliquam hendrerit odio sit amet venenatis. Nunc varius, libero a tempor rutrum, nulla risus congue velit, nec suscipit nibh lectus ac dolor. Nulla facilisi.
+                </p>
+            </div> <!--.cafe-informacion-->
+        </div> <!--.cafe -->
+
+        
+    </main>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+
+        <div class="contacto-bg"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input 
+                    class="campo__field"
+                    type="text" 
+                    placeholder="Tu Nombre" 
+                    id="nombre"
+                >
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input 
+                    class="campo__field"
+                    type="email" 
+                    placeholder="Tu E-mail" 
+                    id="email"
+                >
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea 
+                    class="campo__field campo__field--textarea"
+                    id="mensaje"
+                ></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+        </form>
+
+        
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Café<span class="logo__bold">cito</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="index.html" class="navegacion__enlace">Cafecitos</a>
+                    <a href="index.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
